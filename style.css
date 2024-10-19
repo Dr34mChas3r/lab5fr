@@ -143,6 +143,10 @@ nav ul li a{
 .gallery-container div img{
     width:100%;
 }
+.table-container{
+    overflow: scroll;
+    width: 100%;
+}
 @media only screen and (max-width: 768px){
     nav ul{
         flex-direction: column;
@@ -203,4 +207,5 @@ nav ul li a{
     .gallery-container div{
         max-width: 100%;
     }
+  
 }
